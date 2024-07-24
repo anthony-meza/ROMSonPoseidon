@@ -8,4 +8,6 @@ module load stack/intel
 ROMS_ROOT_DIR=/vortexfs1/home/anthony.meza/scratch 
 export ROMS_ROOT_DIR
 
+cd $ROMS_ROOT_DIR/roms_test
+
 source build_roms.sh
