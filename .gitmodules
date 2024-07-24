@@ -1,3 +1,6 @@
 [submodule "roms"]
 	path = roms
 	url = git@github.com:anthony-meza/roms.git
+[submodule "roms_test"]
+	path = roms_test
+	url = git@github.com:anthony-meza/roms_test.git
