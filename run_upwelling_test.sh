@@ -7,6 +7,7 @@ module load stack/intel
 # i.e. ROMS_ROOT_DIR/roms and ROMS_ROOT_DIR/roms_test
 ROMS_ROOT_DIR=/vortexfs1/home/anthony.meza/scratch
 
-cd $ROMS_ROOT_DIR/roms_test
+export ROMS_ROOT_DIR
+cd $ROMS_ROOT_DIR/roms_test/upwelling
 
 mpirun -np 4 romsG roms_upwelling.in 
